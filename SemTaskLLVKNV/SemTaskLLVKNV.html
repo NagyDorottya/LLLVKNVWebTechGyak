@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+	<title>SemTaskLLVKNV</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="SemTaskLLVKNV.css">
+	<script>
+		function valasz()
+		{
+			alert("A válasz elmentő funkció még nem elérhető!");
+		}
+	</script>
+</head>
+<body>
+	<header>
+		<img src="SemTaskPic.png" alt="Miskolci_Egyetem">
+		
+	</header>
+
+	<section class="horizontal-section">
+		<h2>Üdvözlöm a honlapomon!</h2>
+		<p class="bigger">A nevem Nagy Dorottya, 6. féléves villamosmérnök (BSc) szakos hallgató vagyok.
+			A WEB-es technológiák (GEIAL331B) tárgyam beadandó feladataként készítettem ezt a weblapot.
+			Az alábbi szakaszban a tárgyak nevére kattintva megtekintheti azok tematikáját.
+		</p>
+	</section>
+
+	<section class="vertical-section">
+		<div class="vertical-section-part left-part">
+			<p class="centered_bigger">4. félév</p>
+			<h2 class="centered"><a href="SemTaskLLVKNV_2.html">Villamos energetika és biztonságtechnika</a></h3>
+			
+		</div>
+
+		<div class="vertical-section-part middle-part">
+			<p class="centered_bigger">5. félév</p>
+			<h2 class="centered"><a href="SemTaskLLVKNV_3.html">Villamosenergia-ellátás</a></h3>
+		</div>
+
+		<div class="vertical-section-part right-part">
+			<p class="centered_bigger">6. félév</p>
+			<h2 class="centered"><a href="SemTaskLLVKNV_4.html">Villamos gépek és hajtások</a></h3>
+		</div>
+	</section>
+
+	<section class="vertical-section">
+		<div class="vertical-section-part left-part">
+			<h3>A könnyebb kapcsolattartés érdekében kérem adja meg az alábbi adatait:</h3>
+			<form action="" method="">
+				<div class="boxbox">
+					<label>Név:</label>
+					<input type="text" class="textname" required>
+				</div>
+				<div class="boxbox">
+					<label>e-mail:</label>
+					<input type="email" class="textemail" required>
+				</div>
+				<div class="boxbox">
+					<label>Neptunkód:</label>
+					<input type="text" class="textneptun" required>
+				</div>
+			</form>
+			<div id="buttondiv">
+				<input type="button" id="button" value="Küldés" onclick="valasz()"/>
+			</div>
+			
+		</div>
+		
+		<div class="vertical-section-part right-part">
+			<h3>Ez itt egy videó</h3>
+			<div id="videodiv">
+				<video width="320" height="240" controls>
+					<source src="movie.mp4" type="video/mp4">
+					<source src="movie.ogg" type="video/ogg">
+				  </video>
+			</div>
+		</div>
+	</section>
+
+  <footer>
+    <p>&copy; 2023 Nagy Dorottya Réka - LLVKNV</p>
+ </footer>
+</body>
+</html>

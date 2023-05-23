@@ -1,0 +1,21 @@
+body    {background-color: #c0c0c0;}
+h1      
+{
+color:black;
+text-align: centered;
+}
+p       {color: black ;}
+a {color:red; text-decoration: underline;}
+#size2  {font-size: 40px;}
+#col1 {color: red}
+#col2 {color: blue}
+#col3 {color: yellow}
+#col4 {color: green}
+#col5 {color: brown}
+table {border: 2px;
+border-color: black;
+color:black;
+border-width: 2px;
+table-layout: fixed;
+text-align:center;
+}
